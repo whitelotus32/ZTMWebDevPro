@@ -13,6 +13,16 @@ h2 + p:hover {
     border: 5px solid rgba(225, 176, 170, 0.5);
 }
 
+p {
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 li {
     list-style: none;
     display: inline-block;
