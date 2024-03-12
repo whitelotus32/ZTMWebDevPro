@@ -1,11 +1,9 @@
 # ZTMWebDevPro
 🚀 Welcome to My Full Stack Web Developer Journey! 🚀
 
-Hey there, tech aficionados! I'm diving headfirst into the thrilling world of web development, and I'm excited to share my journey with you all. my name is Nick, and I'm on a mission to become the ultimate full-stack web developer.
+Hey there, tech aficionados! I'm diving into the thrilling world of web development, and I'm excited to share my journey with you all. My name is Nick, and I'm on a mission to become the ultimate full-stack web developer.
 
-Are you ready to join me on this exhilarating ride through the digital frontier? Excellent, because I can't wait to show you what I'm working on!
-
-Throughout this career-transforming bootcamp, I'm honing my skills in HTML, CSS, and everything in between. From crafting sleek layouts with Bootstrap to mastering the intricacies of CSS Grid, I'm leaving no stone unturned in my quest for web mastery.
+I'm honing my skills in HTML, CSS, and everything in between. From crafting sleek layouts with Bootstrap to mastering the intricacies of CSS Grid, I'm leaving no stone unturned in my quest for web mastery.
 
 But that's just the beginning! I'm delving into the depths of JavaScript, exploring its myriad possibilities and pushing the boundaries of what's possible. And when it comes to front-end frameworks, React is my bread and butter – I'm building interactive, lightning-fast user interfaces like there's no tomorrow.
 
