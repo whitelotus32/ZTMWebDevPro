@@ -20,10 +20,13 @@ Here's a sneak peek at the skills I'm bringing to the table:
 - Bootstrap
 - CSS Grid
 - JavaScript
+- Vue.js
 - React
+- Angular.js
 - Node.js
-- Express
+- Express.js
 - PostgreSQL
+- MongoDB
 - NPM
 - Machine Learning
 - Git/GitHub
