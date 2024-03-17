@@ -28,5 +28,12 @@ var c;
 // 3. Prompts the user for the second number.
 // 4. stores that number and responds with the SUM by using an alert.  
 
+var firstNumber = propmt("Please provide the first number");
+var secondNumber = propmt("Please provide the second number");
+alert(Number(firstNumber) + Number(secondNumber));
 
 // BONUS: Make a program that can subtract, multiply, and also divide!
+
+alert(Number(firstNumber) - Number(secondNumber));
+alert(Number(firstNumber) * Number(secondNumber));
+alert(Number(firstNumber) / Number(secondNumber));
