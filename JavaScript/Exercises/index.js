@@ -73,5 +73,5 @@ if (Number(age) < 18) {
 //2. Create another function that does the same thing, called checkDriverAge2() using Function Expression.
 
 //BONUS: Instead of using the prompt. Now, only use console.log and make the checkDriverAge() function accept an argument of age, so that if you enter:
-checkDriverAge(92);
-it returns "Powering On. Enjoy the ride!"
+// checkDriverAge(92);
+// it returns "Powering On. Enjoy the ride!"
