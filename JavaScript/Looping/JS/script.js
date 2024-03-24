@@ -13,6 +13,12 @@ var todosLength = todos.length;
 
 var counterOne = 10;
 while (counterOne > 0) {
-    console.log(counterOne);
-    counterOne++;
+    console.log("while", counterOne);
+    counterOne--;
 }
+
+var counterTwo = 10;
+do {
+    console.log("do while", counterTwo);
+    counterTwo--;
+} while (counterTwo > 0);
