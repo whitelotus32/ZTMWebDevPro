@@ -6,6 +6,8 @@ function experiencePoints() {
         return 1;
     }
 }
+// var experiencePoints = winBattle() ? 10 : 1;
+
 
 //Using this function, answer the questions below:
 function moveCommand(direction) {
@@ -23,7 +25,7 @@ function moveCommand(direction) {
             break;
         case "left":
             break;
-            whatHappens = "you run into a troll";
+            return whatHappens = "you run into a troll";
             break;
         default:
             whatHappens = "please enter a valid direction";
@@ -32,11 +34,36 @@ function moveCommand(direction) {
 }
 
 //#2 return value when moveCommand("forward");
+undefined
 
 //#3 return value when moveCommand("back");
+"you arrived home"
 
 //#4 return value when moveCommand("right");
+"you found a river"
 
 //#5 return value when moveCommand("left");
+undefined
 
 //BONUS: practice makes perfect. Go and write your own switch function. It takes time to get used to the syntax!
+
+function moveCommand(chooseStarterPokemon) {
+    var whatHappens;
+    switch (chooseStarterPokemon) {
+        case "forward":
+            whatHappens = "you choose charmander!";
+            break;
+        case "back":
+            whatHappens = "you choose bulbasaur!";
+            break;
+        case "right":
+            whatHappens = "you choose squirtle!";
+            break;
+        case "left":
+            whatHappens = "you choose pikachu!";
+            break;
+        default:
+            whatHappens = "please enter a valid direction";
+    }
+    return whatHappens;
+}
