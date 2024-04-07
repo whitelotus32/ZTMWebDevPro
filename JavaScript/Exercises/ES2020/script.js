@@ -1,9 +1,13 @@
 // Exercise 1: what do you think the MIN_SAFE_INTEGER is?
-console.log(Number.MAX_SAFE_INTEGER)
-console.log(Number.MIN_SAFE_INTEGER)
+console.log(Number.MAX_SAFE_INTEGER)  //9007199254740991
+console.log(Number.MIN_SAFE_INTEGER)  //-9007199254740991
 
 // Exercise 2: why does this throw an error? How can you fix it?
-3 + 4 + 1n
+3 + 4 + 1n  // BigInts need to be calculated with other BigInts so...
+3n + 4n + 1n // 8n
+3 + 4 + 1 // 8
+// Both produce the value of 8, but one is a Number type, the other is a BigInt type
+
 
 // Exercise 3: Clean up this code using optional chaining
 let will_pokemon = {
@@ -32,18 +36,16 @@ let andrei_pokemon = {
     }
 }
 
-if (andrei_pokemon && andrei_pokemon.raichu && will_pokemon 
-    && will_pokemon.pikachu && will_pokemon.pikachu.friend 
-    && will_pokemon.pikachu.friend.charizard) {
-        console.log('fight!')
+if (andrei_pokemon?.raichu && will_pokemon?.pikachu?.friend?.charizard) {
+    console.log('fight!')
     } else {
         console.log('walk away...')
     }
 
 
 // Exercise 4: What do these each output?
-console.log(false ?? 'hellooo')
-console.log(null ?? 'hellooo')
-console.log(null || 'hellooo')
-console.log((false || null) ?? 'hellooo')
-console.log(null ?? (false || 'hellooo'))
+console.log(false ?? 'hellooo')  //false
+console.log(null ?? 'hellooo')  //'hellooo'
+console.log(null || 'hellooo')  //'hellooo'
+console.log((false || null) ?? 'hellooo')  //'hellooo'
+console.log(null ?? (false || 'hellooo'))  //'hellooo'
