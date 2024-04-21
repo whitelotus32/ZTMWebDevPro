@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wolf Photo App</title>
 </head>
 <body>
     <h1>Wolf Photo App</h1>
@@ -43,8 +43,19 @@
                 <label><input id="wild" type="radio" name="wild-captivity" value="wild"> Wild</label>
                 <label><input id="captivity" type="radio" name="wild-captivity" value="captivity"> Captivity</label>
             </fieldset>
+            <fieldset>
+                <legend>What's your wolf's personality?</legend>
+                <input id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+                <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            </fieldset>
             <input type="text" name="wolfphotourl" placeholder="Wolf Photo URL" required>
             <button type="submit">Submit</button>
     </section>
+    <footer>
+        <p>
+          No Copyright - <a href="https://github.com/whitelotus32">Whitelotus32</a>
+        </p>
+      </footer>
 </body>
 </html>
