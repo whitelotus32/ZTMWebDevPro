@@ -37,7 +37,14 @@
     </section>
     <section>
         <h2>Wolf Form</h2>
-        
+        <form action="https://wolfphotoapp.com/submit-wolf-photo">
+            <fieldset>
+                <legend>Is this wolf from the wild or captivity?</legend>
+                <label><input id="wild" type="radio" name="wild-captivity" value="wild"> Wild</label>
+                <label><input id="captivity" type="radio" name="wild-captivity" value="captivity"> Captivity</label>
+            </fieldset>
+            <input type="text" name="wolfphotourl" placeholder="Wolf Photo URL" required>
+            <button type="submit">Submit</button>
     </section>
 </body>
 </html>
