@@ -12,3 +12,15 @@ body {
 h1, h2, p {
     text-align: center;
 }
+
+.item p {
+    display: inline-block;
+}
+
+.flavor {
+    text-align: left;
+  }
+  
+.price {
+    text-align: right;
+}
